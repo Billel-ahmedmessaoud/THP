@@ -1,0 +1,178 @@
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: white;
+    font-family:sans-serif;
+   /*color: #181818; */
+}
+
+#bloc_page    /* proprietes de la page */ /*bloc qui englobe toute la page*/
+{
+   width: 900 px;  /* fixer la largeur de la page*/
+    margin: auto;  /* mettre les marges automatique*/
+}
+
+/* Header */
+
+
+#entete
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    font-family: arial;
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 0 1 0 10px;
+}
+
+#section
+{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    height: 500px
+
+}
+
+#image
+{
+    display: flex;
+   flex-direction: row-reverse; */
+    justify-content: center;
+    
+}
+
+#form
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+
+#champ
+{
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#bouton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+    height: 25px;
+    right: 5px;
+    bottom: 5px;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#Bas
+{
+     display: flex;
+    flex-wrap: wrap;
+}
+
+#France
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#description
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: ;
+    align-items: flex-start;
+}
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #122222;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 2px solid #760001;
+}
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/celebrat.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a11;
+    margin-bottom: 25px;
+}
+
+
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+}
+
+footer ul
+{
+    font-size: 0.7em;
+}
+
+
